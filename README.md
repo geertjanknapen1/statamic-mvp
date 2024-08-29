@@ -1,3 +1,17 @@
+# How to run.
+It's a Laravel project using Sail.
+In order to start the application, walk through these steps:
+- `./vendor/bin/sail up -d --build` in the root directory.
+- `./vendor/bin/sail artisan config:clear` in the root directory.
+- `./vendor/bin/sail composer install` in the root directory.
+- `./vendor/bin/sail artisan migrate` in the root directory.
+- `npm run dev` in the root directory.
+
+## To create your Statamic user, run;
+- `./vendor/bin/sail artisan statamic:make:user` and follow the prompts :).
+
+---
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
