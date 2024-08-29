@@ -1,0 +1,8 @@
+title: 'Test Form'
+email:
+  -
+    id: m0f0qd8o
+    to: geertjanknapen@gmail.com
+    subject: 'Test Formulier'
+    html: mail/test
+    attachments: true

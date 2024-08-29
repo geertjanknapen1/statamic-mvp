@@ -1,0 +1,25 @@
+title: 'Content field'
+fields:
+  -
+    handle: content
+    field:
+      remove_empty_nodes: false
+      type: bard
+      display: content
+      validate:
+        - required
+      sets:
+        form:
+          display: Form
+          sets:
+            form:
+              display: Form
+              fields:
+                -
+                  handle: form
+                  field:
+                    max_items: 1
+                    type: form
+                    display: Form
+                    validate:
+                      - required
